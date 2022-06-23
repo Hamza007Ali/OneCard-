@@ -1,0 +1,93 @@
+.page-container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.common-blue-button {
+  background-color: #5855d6;
+  border-radius: 66px;
+  font-family: "poppins";
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 24px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.headings-all {
+  font-family: "sans-serif", "Poppins";
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #333269;
+}
+.text-all {
+  font-family: "sans-serif", "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 2.09;
+  color: #666e82;
+}
+/*=============================== cards common classes======================================== */
+.cards-all {
+  width: 22%;
+  min-height: 422px;
+  box-shadow: 0px 10px 60px 0 rgba(46, 61, 98, 15%);
+  border-radius: 5px;
+  transition: 0.5s ease;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-logo {
+  height: 50px;
+  width: 50px;
+}
+.cards-top-left-padding {
+ 
+  width: 60%;
+  
+}
+.cards-all:hover {
+  background-color: #5855d6;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  transform: scale(1.04);
+  box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.6);
+}
+.cards-top-left-padding .cards-heading {
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* ===========================cards circle===================================================  */
+.cards-all .cards-circle-right {
+  background-color: #ffffff;
+  opacity: 0.1;
+  height: 114px;
+  width: 116px;
+  border-radius: 0px 0px 0px 122px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.cards-all .cards-circle-left {
+  background-color: #ffffff;
+  opacity: 0.1;
+  height: 114px;
+  width: 116px;
+  border-radius: 0px 130px 0px 0px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+/* ===================================End of common classes=================================== */
